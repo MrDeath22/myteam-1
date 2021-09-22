@@ -122,6 +122,47 @@ p{
   opacity: 0.8;
 }
 
+/* -------Subscribe-------- */
+
+
+#subscribe {
+  position: relative;
+  padding: 70px 0;
+  background: #F67E7E;
+}
+
+.subscribe__bg {
+  position: absolute;
+  top: 29%;
+  width: 200px;
+  height: 140px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-image: url("../img/subs-bg.svg");
+}
+
+.subscribe__title {
+  font-size: 48px;
+  color: #012F34;
+}
+
+.subscribe__link {
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 2px solid #012F34;
+  border-radius: 24px;
+  color: #012F34;
+  transition: background 0.3s ease, border 0.2s ease;
+}
+
+.subscribe__link:hover {
+  border-color: transparent;
+  background-color: #fff;
+}
+
+
+/* ----------Footer----------- */
+
 footer {
   background-color: #002529;
 }
